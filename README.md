@@ -27,7 +27,6 @@ example below:
 "C:\Users\carlos\anaconda3\python.exe" "C:\Users\carlos\winder_crawler.py"
 pause
 
-## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
