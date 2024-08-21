@@ -1,6 +1,37 @@
+# WatchWindersUSA Scraper
+
+WatchWindersUSA is a webscraper script to compare prices
+
+## Installation
+
+You will need the following libraries installed to use this script:
+
+beautifulsoup4==4.12.3
+google_api_python_client==2.131.0
+google_auth_oauthlib==1.2.0
+pandas==2.0.3
+protobuf==3.20.3
+Requests==2.32.3
+selenium==4.23.1
+
+## Usage
+
+The file winder_crawler.bat must be filled as below.
+
+@echo off
+"(python.exe directory)" "(WatchWinderUSA Scraper directory)"
+pause
+
+example below:
+@echo off
+"C:\Users\carlos\anaconda3\python.exe" "C:\Users\carlos\winder_crawler.py"
+pause
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
 # final_project
-
-
-The project is intended for the batch file to be placed under the scheduler to be run on a prefered schedule.
-The google drive functionality requires a secret file which I have not added in this repository so it may not work as intended but may be replaced by your own or bypassed and saved as a file in local machine instead.
-Since the project was presented some changes have been made to the sites which are scraped so it may not work as intended. I am working on updating the code to get around new popups added.
