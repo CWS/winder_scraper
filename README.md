@@ -34,4 +34,3 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-# final_project
