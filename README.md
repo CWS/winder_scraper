@@ -16,13 +16,14 @@ selenium==4.23.1
 
 ## Usage
 
-The file winder_crawler.bat must be filled as below.
+The file winder_crawler.bat must be edited and filled as below. After that is done it can be executed by executing the file or used with a scheduler. 
 
 @echo off
 "(python.exe directory)" "(WatchWinderUSA Scraper directory)"
 pause
 
 example below:
+
 @echo off
 "C:\Users\carlos\anaconda3\python.exe" "C:\Users\carlos\winder_crawler.py"
 pause
